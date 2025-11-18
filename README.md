@@ -17,4 +17,7 @@
 
 6、屏蔽更新，在 hosts 文件中添加:
    0.0.0.0 release.gitkraken.com
+   
+   windows: C:\Windows\System32\drivers\etc\hosts
+   linux: /etc/hosts
 
