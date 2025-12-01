@@ -6,8 +6,11 @@
    npm install --global yarn
    
 4、关闭 gitkraken，进入 something_interesting 根目录，执行：
+
    yarn install
+   
    yarn build
+   
    yarn gitcraken patcher
 
 5、如果 yarn gitcraken patcher 命令报错，则尝试
@@ -16,8 +19,10 @@
 
 
 6、屏蔽更新，在 hosts 文件中添加:
+
    0.0.0.0 release.gitkraken.com
    
    windows: C:\Windows\System32\drivers\etc\hosts
+   
    linux: /etc/hosts
 
